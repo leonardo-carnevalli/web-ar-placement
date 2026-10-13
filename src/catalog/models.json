@@ -1,0 +1,111 @@
+{
+  "models": [
+    {
+      "id": "potted-plant",
+      "name": "Potted plant",
+      "summary": "A leafy house plant whose leaves let light through, like real ones do against a window.",
+      "placement": "floor",
+      "dimensionsM": {
+        "width": 0.458,
+        "height": 0.55,
+        "depth": 0.43
+      },
+      "source": {
+        "kind": "khronos",
+        "path": "Models/DiffuseTransmissionPlant/glTF-Binary/DiffuseTransmissionPlant.glb",
+        "sha256": "1748be8847e24bdd5cb6c5ac2bfd0afe8f11efc4f85091148550555e47c7ee83",
+        "keepNodes": [
+          "pot",
+          "leaves",
+          "dirt"
+        ]
+      },
+      "credit": {
+        "title": "Diffuse Transmission Plant",
+        "authors": [
+          "Eric Chadwick",
+          "Rico Cilliers (Poly Haven)"
+        ],
+        "license": "CC-BY-4.0",
+        "url": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/DiffuseTransmissionPlant"
+      }
+    },
+    {
+      "id": "toy-car",
+      "name": "Toy car",
+      "summary": "A small toy car with clear plastic windows and a clearcoat finish. Fits in your hand.",
+      "placement": "table",
+      "dimensionsM": {
+        "width": 0.113,
+        "height": 0.07,
+        "depth": 0.231
+      },
+      "source": {
+        "kind": "khronos",
+        "path": "Models/ToyCar/glTF-Binary/ToyCar.glb",
+        "sha256": "01a60862de55cd4b9f3acfab0b0def86451800f9c42467fcd61052c16cb9838c",
+        "keepNodes": [
+          "ToyCar",
+          "Glass"
+        ]
+      },
+      "credit": {
+        "title": "Toy Car",
+        "authors": [
+          "Guido Odendahl",
+          "Eric Chadwick"
+        ],
+        "license": "CC0-1.0",
+        "url": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/ToyCar"
+      }
+    },
+    {
+      "id": "lantern",
+      "name": "Wooden lantern",
+      "summary": "An old wooden lantern post, scaled down to sit on a desk or a shelf.",
+      "placement": "table",
+      "dimensionsM": {
+        "width": 0.272,
+        "height": 0.45,
+        "depth": 0.081
+      },
+      "source": {
+        "kind": "khronos",
+        "path": "Models/Lantern/glTF-Binary/Lantern.glb",
+        "sha256": "a79458c4b02d695187a952f23a63b8bf278e7bc3d316a3c2a314f2d6974181f1"
+      },
+      "credit": {
+        "title": "Lantern",
+        "authors": [
+          "sbtron",
+          "Frank Galligan"
+        ],
+        "license": "CC0-1.0",
+        "url": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/Lantern"
+      }
+    },
+    {
+      "id": "toy-robot",
+      "name": "Toy robot",
+      "summary": "A tiny robot built from code: boxes, cylinders and two glowing eyes. No download needed.",
+      "placement": "table",
+      "dimensionsM": {
+        "width": 0.214,
+        "height": 0.32,
+        "depth": 0.095
+      },
+      "source": {
+        "kind": "generated",
+        "generator": "scripts/robot.ts"
+      },
+      "credit": {
+        "title": "Toy Robot",
+        "authors": [
+          "Leonardo Carnevalli"
+        ],
+        "license": "MIT",
+        "url": "https://github.com/leonardo-carnevalli/web-ar-placement"
+      }
+    }
+  ]
+}
