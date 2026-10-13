@@ -1,0 +1,52 @@
+{
+  "name": "web-ar-placement",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Place a real-size 3D object on your table or floor from a web page: WebXR on Android, AR Quick Look on iPhone, 3D preview on desktop.",
+  "license": "MIT",
+  "author": "Leonardo Carnevalli",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "dev:phone": "next dev --experimental-https -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "vitest run",
+    "models": "tsx scripts/models.ts",
+    "screenshots": "playwright test capture",
+    "e2e": "playwright test preview devices webxr"
+  },
+  "dependencies": {
+    "@google/model-viewer": "^4.4.0",
+    "next": "16.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "three": "^0.183.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "^4.5.1",
+    "@gltf-transform/extensions": "^4.5.1",
+    "@gltf-transform/functions": "^4.5.1",
+    "@iwer/sem": "^2.6.0",
+    "@playwright/test": "^1.64.0",
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "^0.183.1",
+    "esbuild": "^0.28.2",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.0",
+    "iwer": "^2.6.0",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.15",
+    "typescript": "^5",
+    "vitest": "^5.0.4"
+  }
+}

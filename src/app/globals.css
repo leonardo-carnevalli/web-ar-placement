@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #f3efe8;
+  --color-tile: #e9e3d8;
+  --color-card: #fbf9f5;
+  --color-ink: #16171b;
+  --color-accent: #d94e22;
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-bricolage);
+  --font-mono: var(--font-plex-mono);
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+}
+
+model-viewer {
+  --poster-color: transparent;
+  --progress-bar-color: var(--color-accent);
+}
